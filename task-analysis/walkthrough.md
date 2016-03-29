@@ -3,7 +3,7 @@
 ## The Problem
 
 It's a many-layered step for students to request their transcripts on my IIT. We propose to make this happen in as few clicks/taps as possible. This involves:
-1. Looking up transcripts
+1) Looking up transcripts
 2. Printing simple pdf of transcript
 3. Requesting official transcript to be mailed
 

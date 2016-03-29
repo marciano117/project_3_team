@@ -49,8 +49,8 @@ When users tap/click Request Official Transcript, the submenu will show a form t
 3. DOB:
 4. A#: 
 5. Mailing Address:
-6: Delivery Options:
-7: Payment:
-8: Email for receipt:
+6. Delivery Options:
+7. Payment:
+8. Email for receipt:
 
 To navigate back, users will simply close the opened menu/submenu with the opposite up arrow close-up feature at the top of the screen or their phones’ back arrow. 

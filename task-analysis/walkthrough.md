@@ -3,13 +3,15 @@
 ## The Problem
 
 It's a many-layered step for students to request their transcripts on my IIT. We propose to make this happen in as few clicks/taps as possible. This involves:
-1) Looking up transcripts
+
+1. Looking up transcripts
 2. Printing simple pdf of transcript
 3. Requesting official transcript to be mailed
 
 ## Login
 
 Login page simplified to bare necessities (see login image):
+
 1. IIT logo
 2. What user is logging into
 3. Username/password field
@@ -19,6 +21,7 @@ Login page simplified to bare necessities (see login image):
 ## Welcome
 
 Upon successful login, user will be directed to IIT welcome page. The welcome page will be simplified to the 6 main tasks users visit myIIT for:
+
 1. My Schedule
 2. My Grades
 3. My Finances
@@ -31,6 +34,7 @@ A drop down list will appear when a tab is tapped/clicked. Our task, accessing t
 ## Task
 
 When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora (see transcript-step image):
+
 1. Semester Grades (Midterm or Final, whichever is most recent)
 2. Unofficial Transcript
 3. Print Transcript
@@ -39,6 +43,7 @@ When the user clicks/taps My Grades, a sub-menu of choices will appear, instead 
 Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements (see options image).
 
 When users tap/click Request Official Transcript, the submenu will show a form to be filled out that asks for:  
+
 1. Attn:
 2. Student Name:
 3. DOB:

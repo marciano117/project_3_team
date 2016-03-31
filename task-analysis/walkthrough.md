@@ -10,7 +10,7 @@ It's a many-layered step for students to request their transcripts on my IIT. We
 
 ## Login
 
-Login page simplified to bare necessities (see login image):
+Login page simplified to bare necessities: [![See Login Image](project_3_team/task-analysis/login.png")](#login)
 
 1. IIT logo
 2. What user is logging into
@@ -33,14 +33,14 @@ A drop down list will appear when a tab is tapped/clicked. Our task, accessing t
 
 ## Task
 
-When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora (see transcript-step image):
+When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: [![See Transcript-steps Image](project_3_team/task-analysis/transcript-steps.png")](#task)
 
 1. Semester Grades (Midterm or Final, whichever is most recent)
 2. Unofficial Transcript
 3. Print Transcript
 4. Request Official Transcript 
 
-Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements (see options image).
+Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements. [![See Options Image](project_3_team/task-analysis/options.png")](#task)
 
 When users tap/click Request Official Transcript, the submenu will show a form to be filled out that asks for:  
 

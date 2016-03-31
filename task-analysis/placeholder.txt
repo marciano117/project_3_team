@@ -1,2 +1,0 @@
-This file only exists to successfully push the task-analysis folder to the repo
-so Cindy can push the task-analysis.

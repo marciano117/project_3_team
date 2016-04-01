@@ -26,4 +26,18 @@ undergraduate, graduate, co-terminal etc.
 Should provide the most important links. Grades, Schedules and Course Links
 should provide the relevant courses and schedules for the type of student,
 so if a student is U1-U3, they shouldn't be receiving graduate information unless
-requested or the student specifically looks for it. 
+requested or the student specifically looks for it.
+
+Most important thing is to decrease the number of clicks to get to wherever the
+student is trying to reach. In this case, it's important to allow easy and
+intuitive access to the student transcripts. Currently, the banner self service
+is a VERY annoying process of many clicks that no user would realize to even go
+but now, we're looking to redesign so that it's not only intuitive but easy to
+access, both through a desktop and mobile first application.
+Should allow the students to see semester/midterm/final grades
+  ---Blackboard provides assignment grades
+With the current system, it requires many clicks through a directory that is
+not intuitive in letting the students know what to do. In addition, the current
+transcript display is a variety of frames, so that if the student wants to print
+or save them as a PDF, it gets the most outer frame which is the banner and
+header which provides nothing of relevance.

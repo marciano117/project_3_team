@@ -1,0 +1,29 @@
+Work on the redesign of the login page, keep it simple and concise with only
+the necessary fields and information to make it an effective login system
+without hassle but also the necessary troubleshooting and fallbacks for the page.
+
+https://shb.ais.ucla.edu/shibboleth-idp/ucla/authn?execution=e1s2
+https://campusconnect.depaul.edu/psp/CSPRD90/?cmd=login&languageCd=ENG&
+https://shibboleth2.uchicago.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=p39guvw0l0kh19qy5j3nenwwg?execution=e1s1
+
+It's important to have meaningful placeholder text to illustrate exactly what has
+to be input into them. Sometimes it's the full email, sometimes it's just the
+username. Is the "Forgot Password" useful? If they need their password to
+access their email, then how can they configure something to send to an alternate
+email? Or maybe a verification sent to phone?
+
+At login, there should be something parses the users information through a
+database so that it can provide the most prevalent information such as
+undergraduate, graduate, co-terminal etc.
+
+    My Schedule
+    My Grades
+    My Finances
+    My Blackboard
+    My Degree Works
+    My Email
+
+Should provide the most important links. Grades, Schedules and Course Links
+should provide the relevant courses and schedules for the type of student,
+so if a student is U1-U3, they shouldn't be receiving graduate information unless
+requested or the student specifically looks for it. 

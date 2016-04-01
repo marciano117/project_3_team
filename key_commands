@@ -1,0 +1,81 @@
+git lfs - large file storage > 100mb
+when you install git lfs, only do it locally for the specific repository.
+
+git lfs install --local
+git lfs uninstall (if you forget local)
+
+# 1: Uncompress tarball
+
+To uncompress them, execute the following command(s) depending on the extension:
+$ tar zxf file.tar.gz
+$ tar zxf file.tgz
+$ tar jxf file.tar.bz2
+$ tar jxf file.tbz2
+
+Now change directory
+$ ls
+$ cd path-to-software/
+# 2: Build and install software
+
+Generally you need to type 3 commands as follows for building and compiling software:
+# ./configure
+# make
+# make install (or you can use checkinstall)
+
+From working directory, you add it into the staging index of your repository and committing it actually adds it to the repository.
+
+adding user account and email
+git config --global user.name "[name]"
+git config --global user.email "[email]"
+
+built-in git GUI
+gitk
+
+colorful git output
+git config color.ui true
+
+interactive adding
+git add -i
+
+Creating a new branch:
+git checkout -b [branch name --- gh-pages]
+git push --set-upstream origin gh-pages [makes the new remote point to gh-pages]
+git check master [switches back to original branch]
+git branch -d [branch name -- deletes branch]
+git push origin [branch]
+
+Adding File to Git:
+mkdir [directory name]
+go into folder
+git init
+can also do git init [project name/directory]
+
+Check git status - changes, tracked and untracked files in git repository
+git status
+
+Unstages but keeps contents, so undoes the git add
+git reset [file]
+
+Deleting the file from directory
+git rm [file]
+
+Change name - similar to linux form
+git mv [original name] [new name]
+
+
+Copying Repository to Local:
+git clone [repository URL]
+
+Creating a Remote:
+git remote add upstream [url] --- where files will be pushed to, typically to personal repository
+git remote add origin [url] --- where the files will originate from, typically from outside repository
+
+Check Remote:
+git remote --
+
+Way to Add File:
+git add [filename]
+git commit -> will lead to type in a message can also do git commit -m "commit file"
+git push upstream master or git push upstream gh-pages [depending on where you're hosting page]
+
+master - is typically master branch of user's repository

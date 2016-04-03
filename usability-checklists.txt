@@ -2,24 +2,67 @@
 
 ## The Problem
 
-Usability checklists are typical, and sometimes mindless, tools/magic tricks used to find usability problems in web and other digital projects. What you are going to do for this Production Problem is to locate at least 2 different usability checklists of at least 25 items (use Google, but challenge yourself to go beyond the first page of results). From those lists, create your own, condensed list of exactly ten items. Share with your group for Project 3 to help yourselves create your own master usability checklist.
+Usability checklists are typical, and sometimes mindless,
+tools/magic tricks used to find usability problems in web
+and other digital projects. What you are going to do for this
+Production Problem is to locate at least 2 different usability
+checklists of at least 25 items (use Google, but challenge yourself
+to go beyond the first page of results). From those lists, create
+your own, condensed list of exactly ten items. Share with your
+group for Project 3 to help yourselves create your own master
+usability checklist.
 
 ## Deliverables
 
 * URLs for the usability checklists you've found:
 
-1. http://www.businessknowhow.com/marketing/webchecklist.htm
-2. http://www.webpagesthatsuck.com/does-my-web-site-suck/does-my-web-site-suck-checklist-part-two.html 
+1. http://www.studyweb.com/test-your-website-a-57-point-checklist-for-maximum-usability/
+2. https://www.stayintech.com/info/UX
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1. Our site’s code is HTML validated.
-2. Our site is accessible to visitors with physical disabilities.
-3. Visitors can quickly (2 seconds or less) tell what to do when they land on our site.
-4. Navigation is clear and consistent. 
-5. Our site is design responsive.
-6. Our site is cross-browser compatible.
-7. Content is updated frequently/ is up-to-date.
-8. Our site loads quickly.
-9. Visitors can find information/use services quickly. 
-10. Most vital information is present without scrolling up or down. 
+1. Users are not burdened by necessary registration, registration should
+only provide additional and extra information, not serve
+as a limiting factor in what information and content is presented.
+
+2. Ensure that the navigation is clear and simple, intuitive but not ambiguous.
+Make it clear to the user where each button or link leads. Important links
+should not be placed inside carousels or moving features. CONSISTENT on
+each page.
+
+3. Personalized features to help with quality of life changes. Users will be
+prompted for IP-based geolocation functions to help adapt currency, language,
+country specific information or delivery options based on location.
+
+4. Site should be responsive, desktop or mobile first design. Cross browser
+compatibility with the necessary and appropriate fallbacks. Should also
+be accessible for users with disabilities, blind, deaf, etc.
+
+5. Having a strong first page, with a clear call for action that leads to an
+impactful first impression. Credible and clear content that is uncluttered.
+Additional side links should still be relevant and meaningful with its
+images and videos, do not autostart! Having a good understanding
+and utilizing well-designed negative and white space. Links should be
+checked and provide a description and not just "click here".
+
+6. Design and behavior of the webpage should load quickly without creating
+a burden on the user. Should have a crisp response to user actions. Should
+not require horizontal scrolling. No unnecessary plugins. Forms should be simple,
+long menus should be avoided, and fields should be intuitive for common terms.
+Forms should have a confirmation popup or page, but should not be obtrusive.
+
+7. Logo should link home. Important, the site's main logo is normally
+attributed to linking back to the homepage. Additionally, the site URL
+should work without the "www"
+
+8. Transparency for backend, major changes to the site should be announced.
+Ensure that people know about any future downtime.
+
+9. Having a search bar on the site that can run well with a site-wide navigation
+map. Should be available on each page, as well as user friendly to read what the
+user has typed. Important to be able to search words in general, not just
+words in the link.
+
+10. For unexpected errors and what not, the error messages should be clear
+and concise that provide a GOOD description on what went wrong as well as
+provide suggestions on how to remedy the problem. Custom pages for errors.

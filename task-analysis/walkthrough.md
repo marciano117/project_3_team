@@ -33,7 +33,9 @@ A drop down list will appear when a tab is tapped/clicked. Our task, accessing t
 
 ## Task
 
-When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/transcript-steps.png "task")
+As the transcript displaying task currently works, it takes many clicks of folders within folders before the correct transcript appears. Even then, the user can't print out a pdf nor order an official transcript in the same menu. 
+
+We propose that when the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/transcript-steps.png "task")
 
 1. Semester Grades (Midterm or Final, whichever is most recent)
 2. Unofficial Transcript
@@ -42,7 +44,7 @@ When the user clicks/taps My Grades, a sub-menu of choices will appear, instead 
 
 Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements. ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/options.png "task")
 
-When users tap/click Request Official Transcript, the submenu will show a form to be filled out that asks for:  
+Our redesign will show a submenu when users tap/click Request Official Transcript. The submenu will show a form to be filled out that asks for:  
 
 1. Attn:
 2. Student Name:

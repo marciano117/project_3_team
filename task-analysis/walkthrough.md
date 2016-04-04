@@ -2,11 +2,11 @@
 
 ## The Problem
 
-It's a many-layered step for students to request their transcripts on my IIT. We propose to make this happen in as few clicks/taps as possible. This involves:
+It's a many-layered step for students to request their transcripts on my IIT. Currently, there is no intuitive/comprehensive way to see/order transcripts. We propose to make this happen in as few clicks/taps as possible as well as reducing redundancy and clearing repetitive clutter. This redesign involves changing the way users:
 
-1. Looking up transcripts
-2. Printing simple pdf of transcript
-3. Requesting official transcript to be mailed
+1. Look up transcripts
+2. Print simple pdf of transcript
+3. Request official transcript to be mailed
 
 ## Login
 

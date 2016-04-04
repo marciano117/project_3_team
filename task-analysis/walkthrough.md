@@ -33,7 +33,7 @@ A drop down list will appear when a tab is tapped/clicked. Our task, accessing t
 
 ## Task
 
-When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: [![See Transcript-steps Image](transcript-steps.png")](#task)
+When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: [![See Transcript-steps Image]("transcript-steps.png")](#task)
 
 1. Semester Grades (Midterm or Final, whichever is most recent)
 2. Unofficial Transcript

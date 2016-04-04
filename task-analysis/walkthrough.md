@@ -10,7 +10,7 @@ It's a many-layered step for students to request their transcripts on my IIT. We
 
 ## Login
 
-Login page simplified to bare necessities: [![See Login Image]("https://github.com/marciano117/project_3_team/blob/master/task-analysis/login.png")](#login)
+Login page simplified to bare necessities: [See Login Image](https://github.com/marciano117/project_3_team/blob/master/task-analysis/login.png "login")
 
 1. IIT logo
 2. What user is logging into

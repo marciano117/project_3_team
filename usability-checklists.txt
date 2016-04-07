@@ -21,6 +21,7 @@ usability checklist.
 
 * Your own condensed, ten-item must-have usability checklist:
 
+<<<<<<< HEAD
 1. Users are not burdened by necessary registration, registration should
 only provide additional and extra information, not serve
 as a limiting factor in what information and content is presented.
@@ -66,3 +67,30 @@ words in the link.
 10. For unexpected errors and what not, the error messages should be clear
 and concise that provide a GOOD description on what went wrong as well as
 provide suggestions on how to remedy the problem. Custom pages for errors.
+=======
+1. Our site’s code is HTML validated.
+2. Our site is accessible to visitors with physical disabilities.
+3. Visitors can quickly (2 seconds or less) tell what to do when they land on our site.
+4. Navigation is clear and consistent. 
+5. Our site is design responsive.
+6. Our site is cross-browser compatible.
+7. Content is updated frequently/ is up-to-date.
+8. Our site loads quickly.
+9. Visitors can find information/use services quickly. 
+10. Most vital information is present without scrolling up or down. 
+
+
+Elton usability check list:
+
+
+1. URLs Are Meaningful & User-friendly
+2. Adequate Text-to-Background Contrast
+3. Font Size/Spacing Is Easy to Read
+4. Main Navigation Is Easily Identifiable
+5. Links, buttons and checkboxes are easily clickable
+6. Users know where they are on the site
+7. Content is written with common language 
+8. Simplicity
+9. Consistency
+10. Browser compatibility
+>>>>>>> 4b32d3f94594a3c890aae5ebd00b038ef1207678

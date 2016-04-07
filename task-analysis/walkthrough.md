@@ -2,15 +2,15 @@
 
 ## The Problem
 
-It's a many-layered step for students to request their transcripts on my IIT. We propose to make this happen in as few clicks/taps as possible. This involves:
+It's a many-layered step for students to request their transcripts on my IIT. Currently, there is no intuitive/comprehensive way to see/order transcripts. We propose to make this happen in as few clicks/taps as possible as well as reducing redundancy and clearing repetitive clutter. This redesign involves changing the way users:
 
-1. Looking up transcripts
-2. Printing simple pdf of transcript
-3. Requesting official transcript to be mailed
+1. Look up transcripts
+2. Print simple pdf of transcript
+3. Request official transcript to be mailed
 
 ## Login
 
-Login page simplified to bare necessities: [![See Login Image](login.png")](#login)
+Login page simplified to bare necessities: ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/login.png "login")
 
 1. IIT logo
 2. What user is logging into
@@ -33,16 +33,18 @@ A drop down list will appear when a tab is tapped/clicked. Our task, accessing t
 
 ## Task
 
-When the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: [![See Transcript-steps Image](transcript-steps.png")](#task)
+As the transcript displaying task currently works, it takes many clicks of folders within folders before the correct transcript appears. Even then, the user can't print out a pdf nor order an official transcript in the same menu. 
+
+We propose that when the user clicks/taps My Grades, a sub-menu of choices will appear, instead of the Banner Self-Service menu plethora: ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/transcript-steps.png "task")
 
 1. Semester Grades (Midterm or Final, whichever is most recent)
 2. Unofficial Transcript
 3. Print Transcript
 4. Request Official Transcript 
 
-Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements. [![See Options Image](options.png")](#task)
+Each choice will display the most recent grade/transcript. To see past years, users can click expand/see more to show full grade/record history. This skips the Transcript Options step that myIIT currently implements. ![](https://github.com/marciano117/project_3_team/blob/master/task-analysis/options.png "task")
 
-When users tap/click Request Official Transcript, the submenu will show a form to be filled out that asks for:  
+Our redesign will show a submenu when users tap/click Request Official Transcript. The submenu will show a form to be filled out that asks for:  
 
 1. Attn:
 2. Student Name:

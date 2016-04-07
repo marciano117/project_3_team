@@ -1,0 +1,70 @@
+# Production Problem 8: Emotional Design Hunt
+
+## The Problem
+
+First, read the assigned reading from Donald Norman, listed on the ITMD 362 syllabus.
+
+Then, locate a physical object that you use regularly in your life
+ (does not have to be an electronic or digital object), take a
+ photograph of it, and identify in a sentence or two its visceral, behavioral,
+  and reflective levels of emotional design. Then, develop a list of three
+  qualities in that object’s emotional design that your group might use in your
+  MyIIT redesign project. Be sure to share these with your group.
+
+## Deliverables
+
+A. Photograph of the object (place in the week-12/ directory and commit).
+
+B. Emotional design levels of your object:
+
+* Visceral: How the design concerts itself with appearances. Appearances.
+The water bottle is appealing to my eyes and soothing, blue is one of my favorite
+colors, especially dark blue. I've always been a fan of the blue/black contrasting
+color palette so when I first received the water bottle it allowed me to have this
+low-level visceral feeling. It has the image of being a stury and stubborn object,
+able to take a beating. Although it may not be clear in the images, but there have been
+scuffs and dents along the side as well as the cap that indicates my heavy use.
+
+* Behavioral: Pleasure and effectiveness of use.
+Although it is pleasurable and appealing to my eyes, I actually don't have much
+pleasure in using it because it is not the most efficient and functional
+water bottle for me. First off, the cap isn't attached to the bottle in any way
+so I always have this fear when I take it from my room that I will lose the cap
+by accidentally placing it somewhere when I want a drink of something and forget
+to put it back. In addition, it has a little "bump/click" to indicate that it has
+been sealed shut, but using it for almost 4 years now has worn down the bump so
+it's always a hit or miss using it. Lastly, the opening is relatively narrow and
+small which makes the cleaning process very difficult, as a result, I'm mainly
+confined to drinking water because I'm not able to stick a sponge inside to
+clean anything sweet out.
+
+* Reflective: Rationalization and intellectualization of a product.
+Though there are some key fundamental flaws that would normally put me off from this
+water bottle, I still use it because of the emotional meaning behind it and the
+memories and experiences that I had in order to earn it. I received it while I
+was working with SCA, Student Conservation Association, where I was on a 10 week
+trip working at Cumberland National Seashore helping with historical restoration,
+environmental conservation efforts, as well as the turtle hatching season. It is a
+memento to the 10 weeks of crazy heat and humidity, lack of indoor plumbing, and
+being shoved into 2 person tents with 3 people. It is also a memory of the lasting
+friendships that I had made, friendships that were forged by fire and strengthened
+from anger towards the lack of running water. But it is also a memento of raw
+natural beauty, seeing hundreds of turtle hatchings popping out of the sand and into
+the water, and how it led me to pursue medicine, in order to not only to protect
+and care for lives, but also to people another day and opportunity to see the beauty
+around us.
+
+C.  Emotional design qualities of the object that might
+be useful for Project 3/MyIIT redesign:
+
+1. Usability, must be intuitive as well as responsive for all sorts of media and devices.
+
+2. Aesthetics, must capture the user, entice them. Good content, meaningful media,
+and well placed design with a good flow.
+
+3. Practicality, it has to make sense. The navigation must be intuitive, it must provide
+resources to places that come across the users' thoughts. It must look good and display
+thoughtful and appealing design, but not at the cost of functionality. In most cases,
+I want to say that the "maximum functionality, bare necessities" can be an applicable
+statement. Design must be good and everything has to have a purpose, so it's just the
+bare necessities to provide the best and most comprehensive user experience.

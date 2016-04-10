@@ -103,16 +103,36 @@ input:hover{
     max-width: 100%;
   }
 
-  input:hover{
-    color: black;
-    background-color: whitesmoke;
-    border-radius: .5em;
-  }
-
   form {
     padding: 1.5em 3em;
     width: 80%;
     max-width: 46.875em;
+  }
+
+  #login{
+    width: 35%;
+    max-width: 35%;
+  }
+}
+
+@media only screen and (min-width: 61.25em){
+  label{
+  font-size: 1.75em;
+  }
+
+  input {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    line-height: 3.5em;
+    min-width: 150px;
+    width: 45%;
+    max-width: 100%;
+  }
+
+  form {
+    padding: 1.5em 3em;
+    width: 50%;
+    max-width: 750px;
   }
 
   #login{

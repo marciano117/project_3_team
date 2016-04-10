@@ -58,8 +58,21 @@ label {
     background-color: #eee;
 }
 
+<<<<<<< HEAD
 .red {
     background-color:red;
 }
+=======
+.submenu {
+    margin-left: 20%;
+    border-bottom: 0.1em solid;
+    border-right: 0.1em solid;
+}
+
+.red{
+    background-color:red; 
+}
+
+>>>>>>> 68c00a0a107a3cad3aeff0c39e991c465ba0e18f
 
 

@@ -23,8 +23,11 @@ but.addEventListener('click',function login(){
           pass_id.className="red";
     }
     
-    else if(user == "iit_test" && pass == "password"){
+    else if(user == "undergraduate" && pass == "password"){
         window.location.href="undergrad.html";
+    }
+    else if(user == "graduate" && pass == "password"){
+        window.location.href="grad.html";
     }
         
     

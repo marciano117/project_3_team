@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/> 
     <link rel="stylesheet" href="redesign.css">
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
-    <script src="login_js.js" type="text/javascript"></script>
+    
 </head>
 
 <body>
@@ -16,14 +16,17 @@
     </figure>
     <h1>myIIT</h1>
     <div id="menu">
-    <form>
+    <form id="iit">
         <label>Username</label>
-        <input id="user" type="text" required placeholder="ID" title="Enter your IIT username."/>
+        <input id="user" class="clear" type="text" required placeholder="ID" title="Enter your IIT username."/>
         <label>Password</label>
         <input id="pass" type="password" required title="Enter your login password"/>
         <button type="button" id="logins"><a href="undergrad.html">Login</a></button>
+        <input id="pass" class="clear" type="password" required title="Enter your login password"/>
+        <button type="button" id="login">Login</button>
         <a href="">Forgot password!</a>
     </form>
     </div>
+    <script src="login_js.js" type="text/javascript"></script>
     </body>
 </html>

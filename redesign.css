@@ -58,6 +58,12 @@ label {
     background-color: #eee;
 }
 
+.submenu {
+    margin-left: 20%;
+    border-bottom: 0.1em solid;
+    border-right: 0.1em solid;
+}
+
 
 
 

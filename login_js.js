@@ -6,15 +6,16 @@ but.addEventListener('click',function login(){
     var pass = document.forms["iit"}["pass"].value;
     
     if ((user == null || user =="") && (pass == null || pass ="")){
-        alert("Please do not leave the fields empty"); //will change it later to color field input 
+        user.class="red";
+        pass.class="red";//will change it later to color field input 
     }
     
     if else ((user == null) || user == ""){
-        alert("Please do not leave the user field input field empty")
+        user.class="red";
     }
     
     if else((pass == null) || (pass == "")){
-        alert("Please enter your password")
+          pass.class="red";
     }
     
     else ((user == "iit_test") && (pass == "password")){

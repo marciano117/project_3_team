@@ -20,12 +20,12 @@
     <div id="menu">
         <label class="menu">&#9660; My Email</label>
         <label class="menu">&#9660; My Blackboard</label>
-        <label class="menu">&#9660; My Grades</label>
+        <label class="menu"><a href="undergrad.html">&#9660; My Grades</a></label>
         <label class="submenu">&darr; Semester Grades</label>
         <label class="submenu">&darr; Unofficial Transcript</label>
         <label class="submenu">&darr; Print Transcript (PDF)</label>
-        <label class="submenu">&darr; Request Official Transcript</label>
-        <form>
+        <label class="submenu"><a href="transcript.html">&darr; Request Official Transcript</a></label>
+        <form id="request">
         <label>Attn:</label>
         <input id="user" type="name" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
         <label>Student Name:</label>
@@ -43,9 +43,13 @@
         <label>E-MAIL</label>
         <input type="email" title="Enter email of requesting institution." placeholder="received@university.edu"/>
         <label>Payment:</label>
-        
+        <input type="radio" title="Choose payment option."/>
+        <label>Credit/Debit</label>
+        <input type="radio" title="Choose payment option."/>
+        <label>Check</label>
+        <input type="radio" title="Choose payment option."/>
+        <label>Direct Deposit</label>
         <input type="submit"/>
-        
         </form>
         <label class="menu">&#9660; My Schedule</label>
         <label class="menu">&#9660; My Finances</label>

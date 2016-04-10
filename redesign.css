@@ -27,7 +27,7 @@ h2, p {
 }
 
 form {
-    padding: 5em;
+    padding: 3em;
     background-color: #eee;
     display: block;
 }
@@ -50,6 +50,10 @@ label {
 
 #menu {
     padding:3em;
+}
+
+#request {
+    margin-left: 30%;
 }
 
 .menu {

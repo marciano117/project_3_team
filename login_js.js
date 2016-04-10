@@ -3,21 +3,22 @@ var but = document.getElementById("login");
 but.addEventListener('click',function login(){
                      
     var user = document.forms["iit"]["user"].value;
-    var pass = document.forms["iit"}["pass"].value;
+    var pass = document.forms["iit"]["pass"].value;
     
-    if ((user == null || user =="") && (pass == null || pass ="")){
-        alert("Please do not leave the fields empty"); //will change it later to color field input 
+    if ((user == null || user =="") && (pass == null || pass =="")){
+        user.class="red";
+        pass.class="red";//will change it later to color field input 
     }
     
-    if else ((user == null) || user == ""){
-        alert("Please do not leave the user field input field empty")
+    else if((user == null || user == "")){
+        user.class="red";
     }
     
-    if else((pass == null) || (pass == "")){
-        alert("Please enter your password")
+    else if((pass == null) || (pass == "")){
+        pass.class="red";
     }
     
-    else ((user == "iit_test") && (pass == "password")){
+    else ((user == "iit_test") && (pass == "password"))
         //work on this later.
-    }
+    
                      });

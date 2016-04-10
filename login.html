@@ -4,10 +4,10 @@
     <title>myIIT</title>
     <meta charset="utf-8">
     <!--Mobile specific-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
     <link rel="stylesheet" href="redesign.css">
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
-    
+
 </head>
 
 <body>
@@ -18,9 +18,9 @@
     <div id="menu">
     <form id="iit">
         <label>Username</label>
-        <input id="user" class="clear" type="text" required placeholder="ID" title="Enter your IIT username."/>
+        <input id="user" class="clear" type="text" aria-required="true" pattern="[a-z0-9]{2,15}" placeholder="Your myIIT Logon ID" title="Enter your IIT username."/>
         <label>Password</label>
-        <input id="pass" class="clear" type="password" required title="Enter your login password"/>
+        <input id="pass" name="password" class="clear" type="password" aria-required="true" pattern="[a-zA-Z0-9 !@#$%^&amp;*().,]{6,128}" placeholder="Your myIIT Password" title="Passwords must be at least 6 characters long and consist of letters, numbers, and the following symbols: !@#$%^&amp;*().,"/>
         <button type="button" id="login">Login</button>
         <a href="">Forgot password!</a>
     </form>

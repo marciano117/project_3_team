@@ -69,8 +69,22 @@ input:hover{
   padding: .5em;
 }
 
+#logout{
+  display: block;
+  background: #eee;
+  margin-left: 3em;
+  width: 10em;
+  height:3.5em;
+  text-align: center;
+  line-height: 3.5em;
+  border-radius: .25em;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
 #menu {
-    padding:3em;
+  padding:3em;
 }
 
 #request {
@@ -81,20 +95,19 @@ input:hover{
 }
 
 .menu {
-    padding: 1em;
-    margin-left: 10%;
-    background-color: #eee;
+  padding: 1em;
+  margin-left: 10%;
+  background-color: #eee;
 }
 
-
 .submenu {
-    margin-left: 20%;
-    border-bottom: 0.1em solid;
-    border-right: 0.1em solid;
+  margin-left: 20%;
+  border-bottom: 0.1em solid;
+  border-right: 0.1em solid;
 }
 
 .red{
-    background-color:red;
+  background-color:red;
 }
 
 @media only screen and (min-width: 31em){

@@ -29,6 +29,21 @@ but.addEventListener('click',function login(){
     else if(user == "graduate" && pass == "password"){
         window.location.href="grad.html";
     }
-        
+    
+    else if (user == "coterminal" && pass =="password"){
+        window.location.href="coterm.html"
+    }
+    else if (user != "undergraduate" && user != "graduate" && user != "coterminal" && user != "" && user != null ){
+        var err_user = document.getElementById("wrong_user");
+        err_user.className = "display";
+        user_id.value ="";
+        pass_id.value ="";
+    }    
+    else if(pass!= "password" && pass!="null" && pass!= ""){
+        var err_pass = document.getElementById("wrong_pass");
+        err_pass.className = "display";
+        user_id.value="";
+        pass_id.value="";
+    }
     
                      });

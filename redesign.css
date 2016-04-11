@@ -71,13 +71,16 @@ input:hover{
 
 #logout{
   display: block;
-  background: #eee;
-  margin-left: 3em;
-  width: 10em;
-  height:3.5em;
+  background-color: #fff;
+  width: 45px;
+  margin-left: 3.5em;
   text-align: center;
-  line-height: 3.5em;
-  border-radius: .25em;
+  line-height: 1.5em;
+  border-radius: 0.5em;
+  border-bottom: 0.1em solid;
+  border-right: 0.1em solid;
+  font-size: 0.8em;
+  font-family: sans-serif;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;

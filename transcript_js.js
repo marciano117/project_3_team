@@ -12,7 +12,7 @@ but1.addEventListener('click',function request(){
     var name_id = document.getElementById("name");
     var birth_id = document.getElementById("birth");
     var address_id = document.getElementById("address");
-    var msg = document.getElementById("message");
+    var msg = document.getElementById("transcript_message");
     
     if(user1 == null || user1 == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == ""){
         

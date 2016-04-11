@@ -29,6 +29,10 @@ but.addEventListener('click',function login(){
     else if(user == "graduate" && pass == "password"){
         window.location.href="grad.html";
     }
+    
+    else if (user == "coterminal" && pass =="password"){
+        window.location.href="coterm.html"
+    }
         
     
                      });

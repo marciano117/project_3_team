@@ -35,33 +35,26 @@
             <input id="name" type="text" required title="Enter your name." placeholder="Jane Doe"/>
 
             <label>Date of Birth:</label>
-            <input id="birth" type="date" required title="Date of Birth."/>
+            <input id="birth" type="date" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
 
             <label>Mailing Address:</label>
             <input id="address" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
 
             <label>Delivery Options:</label>
-            <input type="radio" title="Choose delivery option."/>
-
-            <label>USPS</label>
-            <input type="radio" title="Choose delivery option."/>
-
-            <label>FEDEX</label>
-            <input type="radio" title="Choose delivery option."/>
-
+            <select>
+                <option value="usps">USPS</option>
+                <option value="fedex">FedEx</option>
+                <option value="email">E-mail</option>
+            </select>
             <label>E-MAIL</label>
-            <input type="email" title="Enter email of requesting institution." placeholder="received@university.edu"/>
+            <input type="email" title="Enter email of requesting institution." placeholder="For email delivery option"/>
 
             <label>Payment:</label>
-            <input type="radio" title="Choose payment option."/>
-
-            <label>Credit/Debit</label>
-            <input type="radio" title="Choose payment option."/>
-
-            <label>Check</label>
-            <input type="radio" title="Choose payment option."/>
-
-            <label>Direct Deposit</label>
+            <select>
+                <option value="credit">Credit/Debit</option>
+                <option value="check">Check</option>
+                <option value="deposit">Direct Deposit</option>
+            </select>
             <a href="login.html" id="logout">Submit</a> 
           </form>
         <label class="menu">&#9660; My Schedule</label>

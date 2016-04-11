@@ -1,4 +1,4 @@
-var but1 = document.getElementById("submit");
+var but1 = document.getElementById("logout");
 
 but1.addEventListener('click',function request(){
     

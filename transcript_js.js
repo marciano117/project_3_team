@@ -1,4 +1,4 @@
-var but1 = document.getElementById("submit ");
+var but1 = document.getElementById("submit");
 
 but1.addEventListener('click',function request(){
     
@@ -24,4 +24,5 @@ but1.addEventListener('click',function request(){
         msg.className = "display";
         
     }
+    
 });

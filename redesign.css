@@ -119,7 +119,7 @@ input:hover{
 }
 
 .display{
-    
+    color:red;
 }
 
 @media only screen and (min-width: 31em){

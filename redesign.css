@@ -108,7 +108,7 @@ input:hover{
   display: block;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  background-color: #eee;   
+  background-color: #eee;
 }
 
 #request {
@@ -162,8 +162,7 @@ input:hover{
       margin-left: 15%;
       background-color: #eee;
   }
-
-
+  
   #login{
     width: 35%;
     max-width: 35%;

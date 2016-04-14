@@ -24,12 +24,104 @@
         <label class="menu"><a href="undergrad.html">&#9660; My Grades</a></label>
         <label class="submenu"><a href="semester.html">&darr; Semester Grades</a></label>
         <label class="submenu"><a href="transcript.html">&darr; Request Academic Audit</a></label>
-        <!--LAPS STUFF GOES HERE-->
+        <form id="request">
+          <p>
+            An academic audit provides a summary of a student's academic status to date and lists the courses
+            to be completed, in order to receive a degree. Students can request an official academic audit from
+            the Office of Undergraduate Academic Affairs after they have earned a minimum of 60 semester hours
+            (90 semester hours for architecture students).
+          </p>
+
+          <p>
+            Please provide as much information as possible for quicker responses. Information not given
+            will resort to the Office of Undergraduate Academic Affairs using your incoming information
+            when you first applied.
+          </p>
+
+          <label>Student Name:</label>
+          <input id="name" type="text" required title="Enter your name." placeholder="Jane Doe"/>
+
+          <label>Student ID Number:</label>
+          <input id="IDNumber" type="text" required placeholder="A########" title="Enter your Hawk A-Number"/>
+
+          <label>Date of Birth:</label>
+          <input id="birth" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
+
+          <label>IIT Email:</label>
+          <input id="email" type="email" title="Enter IIT Student Email" required placeholder="jschmoe@hawk.iit.edu"/>
+
+          <label>Mailing Address:</label>
+          <input id="address" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
+
+          <label>Degree:</label>
+          <select>
+              <option value="BachelorOfScience">Bachelor of Science</option>
+              <option value="ProfessionalBachelor">Professional Bachelor</option>
+          </select>
+
+          <label>Major:</label>
+          <select>
+            <!-- From current IIT academic audit source code -->
+            <option value="" selected="selected"></option>
+            <option value="40">Aerospace Engineering</option>
+            <option value="56">Applied Mathematics</option>
+            <option value="41">Applied Physics</option>
+            <option value="42">Architecture</option>
+            <option value="7">Architectural Engineering</option>
+            <option value="43">Biochemistry</option>
+            <option value="44">Biology</option>
+            <option value="8">Biomedical Engineering</option>
+            <option value="46">Business Administration</option>
+            <option value="9">Chemical Engineering</option>
+            <option value="49">Chemistry</option>
+            <option value="10">Civil Engineering</option>
+            <option value="11">Computer Engineering</option>
+            <option value="47">Computer Information Systems</option>
+            <option value="48">Computer Science</option>
+            <option value="12">Electrical Engineering</option>
+            <option value="13">Engineering Managerment</option>
+            <option value="50">Humanites</option>
+            <option value="52">Industrial Technology & Management</option>
+            <option value="51">Information Technology & Management</option>
+            <option value="53">Journalism of Technology, Science, and Business</option>
+            <option value="14">Materials Science & Engineering</option>
+            <option value="15">Mechanical Engineering</option>
+            <option value="31">Molecular Biochemistry & Biophysics</option>
+            <option value="32">Physics</option>
+            <option value="33">Physics Education</option>
+            <option value="34">Political Science</option>
+            <option value="35">Professional and Technical Communication</option>
+            <option value="54">Psychology</option>
+            <option value="36">Social Sciences</option>
+            <option value="37">Sociology</option>
+          </select>
+
+          <label>Minor:</label>
+          <input id="minor" type="text" placeholder="Pre-Medical Studies"/>
+
+          <label>Specialization:</label>
+          <input id="Specialization" type="text" placeholder="i.e Systems Security"/>
+
+          <label>Additional Information? Second Major? Minor? Specializations?</label>
+          <textarea id="additionalInfo" type="text" placeholder="Additional Info Here!" rows="8" cols="90" ></textarea>
+
+          <button type="button" id="submit">Submit</button>
+
+          <p id="audit_message" class="clear-display">
+            Your Request has been registered! Please wait approximately 5-7 business days. If you do not receive
+            your academic audit within that time, please feel free to contact us at:
+            <a href="mailto:UGAA-Email-Address">FakeUGAAEmail@iit.edu</a>
+          </p>
+
+        </form>
+
         <label class="submenu"><a href="print_transcript.pdf" target="_blank">&darr; Print Transcript (Click for PDF)</a></label>
         <label class="submenu"><a href="transcript.html">&darr; Request Official Transcript</a></label>
         <label class="menu">&#9660; My Schedule</label>
         <label class="menu">&#9660; My Finances</label>
         <label class="menu">&#9660; My Degreeworks</label>
     </div>
+    <script src="audit_js.js" type="text/javascript"></script>
+
 </body>
 </html>

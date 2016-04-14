@@ -14,9 +14,9 @@ but1.addEventListener('click',function request(){
     var birth_id = document.getElementById("birth");
     var address_id = document.getElementById("address");
     var email_id = document.getElementById("email");
-    var msg = document.getElementById("transcript_message");
+    var msg = document.getElementById("audit_message");
 
-    if(user1 == null || user1 == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == ""){
+    if(IDNumber == null || IDNumber == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == "" || email == null || email == ""){
 
         msg.className = "clear-display";
 

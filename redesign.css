@@ -38,6 +38,10 @@ form {
     display: block;
 }
 
+form > p {
+  display: none;
+}
+
 button {
     margin-top: 2em;
     display: flex;
@@ -53,15 +57,14 @@ label {
     margin: 0.5em 0em;
 }
 
-input {
+input, textarea {
   margin-bottom: 1em;
   line-height: 2.5em;
   width: 30%;
   min-width: 120px;
-
 }
 
-input:hover{
+input:hover, textarea:hover{
   color: black;
   background-color: whitesmoke;
   border-radius: .5em;
@@ -118,6 +121,11 @@ input:hover{
   overflow: hidden;
 }
 
+#major, #degree {
+  width: 50%;
+  max-width: 70%;
+}
+
 .menu {
   padding: 1em;
   margin-left: 10%;
@@ -143,7 +151,11 @@ input:hover{
 }
 
 @media only screen and (min-width: 31em){
-  input {
+  form > p {
+    display: none;
+  }
+
+  input, textarea {
     margin-bottom: 1em;
     line-height: 2.5em;
     min-width: 150px;
@@ -162,7 +174,7 @@ input:hover{
       margin-left: 15%;
       background-color: #eee;
   }
-  
+
   #login{
     width: 35%;
     max-width: 35%;
@@ -170,11 +182,12 @@ input:hover{
 }
 
 @media only screen and (min-width: 61.25em){
+
   label{
   font-size: 1.25em;
   }
 
-  input {
+  input, textarea {
     font-size: 1.15em;
     margin-bottom: 1em;
     line-height: 2.75em;

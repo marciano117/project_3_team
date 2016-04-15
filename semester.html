@@ -6,7 +6,8 @@
     <!--Mobile specific-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
     <link rel="stylesheet" href="redesign.css">
-    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 </head>
 
 <body>
@@ -23,31 +24,32 @@
         <label class="menu">&#9660; My Blackboard</label>
         <label class="menu"><a href="undergrad.html">&#9660; My Grades</a></label>
         <label class="submenu"><a href="semester.html">&darr; Semester Grades</a></label>
-	<div class="text-container" id="semester">
-	  <p>Latest Semester Grades:</p>
-	  <img id="gradeimgs" src="spring_2016_grades.PNG" alt="spring2016"/>
-	  
-	  <div class="content hideContent">
-            <img id="gradeimgs" src="fall_2013_grades.PNG" alt="fall2013"/>
-            <img id="gradeimgs" src="spring_2014_grades.PNG" alt="spring2014"/>
-            <img id="gradeimgs" src="fall_2014_grades.PNG" alt="fall2014"/>
-            <img id="gradeimgs" src="spring_2015_grades.PNG" alt="spring2015"/>
-	  </div>
-	  <div class="show-more">
-	    <a href="#">Show More</a>
-	  </div>
-	</div>
+          <div class="text-container" id="semester">
+          <p>Latest Semester Grades:</p>
+          <img id="gradeimgs" src="spring_2016_grades.PNG" alt="spring2016"/>
 
-        <label class="submenu"><a href="audit.html">&darr;  Unofficial Transcript</a></label>
-        <label class="submenu"><a href="print_transcript.pdf" target="_blank">&darr; Print Transcript (PDF)</a></label>
+          <div class="content hideContent">
+                  <img id="gradeimgs" src="fall_2013_grades.PNG" alt="fall2013"/>
+                  <img id="gradeimgs" src="spring_2014_grades.PNG" alt="spring2014"/>
+                  <img id="gradeimgs" src="fall_2014_grades.PNG" alt="fall2014"/>
+                  <img id="gradeimgs" src="spring_2015_grades.PNG" alt="spring2015"/>
+          </div>
+          <div class="show-more">
+            <a href="#">Show More</a>
+          </div>
+          </div>
+
+          <label class="submenu"><a href="audit.html">&darr;  Unofficial Transcript</a></label>
+          <label class="submenu"><a href="print_transcript.pdf" target="_blank">&darr; Print Transcript (PDF)</a></label>
           <label class="submenu"><a href="transcript.html">&darr; Request Official Transcript</a></label>
-        
+
         <label class="menu">&#9660; My Schedule</label>
         <label class="menu">&#9660; My Finances</label>
         <label class="menu">&#9660; My Degreeworks</label>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="semester_js.js" type="text/javascript"></script>
     <script src="transcript_js.js" type="text/javascript"></script>
 </body>

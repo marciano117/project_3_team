@@ -40,8 +40,13 @@ but1.addEventListener('click',function request(){
         birth_id.value = "";
         address_id.value = "";
         email_id.value = "";
+        user_id.className="clear";
+        name_id.className="clear";
+        birth_id.className="clear";
+        address_id.className="clear";
+        email_id.className="clear";
         delivery_id.selectedIndex=0;
-        payment_id.selectIndex=0;
+        payment_id.selectedIndex=0;
     }
     
     

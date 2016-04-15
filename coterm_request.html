@@ -28,37 +28,50 @@
         <label class="submenu"><a href="coterm_audit.html">&darr; Request Academic Audit</a></label>
         <label class="submenu"><a href="print_transcript.pdf" target="_blank">&darr; Print Transcript (PDF)</a></label>
           <label class="submenu"><a href="co-mygrades.html">&darr; Request Official Transcript</a></label>
-          <form id="request">
-            <label>Attn:</label>
-            <input id="user1" type="text" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
+                   <form id="request">
+            <p>
+              ** indicates a required field.
+            </p>
 
-            <label>Student Name:</label>
-            <input id="name" type="text" required title="Enter your name." placeholder="Jane Doe"/>
+            <label>Attn: **</label>
+            <input id="user1" class="clear" type="text" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
 
-            <label>Date of Birth:</label>
-            <input id="birth" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
+            <label>Student Name: **</label>
+            <input id="name" class="clear" type="text" required title="Enter your name." placeholder="Jane Doe"/>
 
-            <label>Mailing Address:</label>
-            <input id="address" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
+            <label>Date of Birth: **</label>
+            <input id="birth" class="clear" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
+
+            <label>Mailing Address: **</label>
+            <input id="address" class="clear" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
 
             <label>Delivery Options:</label>
-            <select>
+            <select id="shipping" name="Shipping">
+                <option value="Select Delivery Option">Select Delivery Option</option>
                 <option value="usps">USPS</option>
                 <option value="fedex">FedEx</option>
                 <option value="email">E-mail</option>
             </select>
             <label>E-Mail</label>
-            <input type="email" title="Enter email of requesting institution." placeholder="For email delivery option"/>
+            <input id="email" class="clear" type="email" title="Enter email of requesting institution." placeholder="For email delivery option"/>
             <label>Payment:</label>
-            <select>
+            <select id="payment" name="Payment">
+                <option value="Select Payment Option">Select Payment Option</option>
                 <option value="credit">Credit/Debit</option>
                 <option value="check">Check</option>
                 <option value="deposit">Direct Deposit</option>
         </select>
 
             <button type="button" id="submit">Submit</button>
-
-            <p id="transcript_message" class="clear-display">Your Official Transcript request has been sent.</p>
+            
+            
+              <p id="error" class="clear-display">Please fill in incomplete required fields marked in red and select a payment and delivery option.</p>
+              <p id="err_1">Please fill in incomplete required fields marked in red and select a payment option.</p>
+              <p id="err_2">Please fill in incomplete required fields marked in red and select a delivery option.</p>
+              <p id="err_both">Please select a payment and delivery option!</p>
+              <p id="err_payment" class="clear-display">Please select a payment option!</p>
+              <p id="err_shipping" class="clear-display">Please select a delivery option!</p>
+              <p id="transcript_message" class="clear-display">Your Official Transcript request has been sent. Confirmation email sent to the provided email address.</p>
 
 
           </form>

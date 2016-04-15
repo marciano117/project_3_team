@@ -10,14 +10,6 @@ body {
     padding: 1em;
 }
 
-
-img {
-    padding: 5%;
-    max-width: 5em;
-    display: flex;
-}
-
-
 h1 {
     text-align: center;
     font-size: 3em;
@@ -26,7 +18,20 @@ h1 {
 h2, p {
   margin-left: 2em;
   padding: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+}
+
+
+img {
+    padding: 5%;
+    max-width: 5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 form {
@@ -44,10 +49,16 @@ form > p {
 
 button {
     margin-top: 2em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
 }
 
 a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 1em;
 }
@@ -74,6 +85,9 @@ input:hover, textarea:hover{
   padding-left: 5%;
   padding-right: 5%;
   max-width:90%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -179,16 +193,16 @@ input:hover, textarea:hover{
     width: 80%;
     max-width: 46.875em;
   }
+    
+ #login{
+    width: 35%;
+    max-width: 35%;
+  }
 
   .menu {
       padding: 1em;
       margin-left: 15%;
       background-color: #eee;
-  }
-
-  #login{
-    width: 35%;
-    max-width: 35%;
   }
 }
 

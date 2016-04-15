@@ -1,5 +1,6 @@
 var but1 = document.getElementById("submit");
 
+
 but1.addEventListener('click',function request(){
     
     var user1 = document.forms["request"]["user1"].value;
@@ -21,6 +22,7 @@ but1.addEventListener('click',function request(){
     var error_msg = document.getElementById("error");
     var err_1 = document.getElementById("err_1");
     var err_2 = document.getElementById("err_2");
+    var err_3 = document.getElementById("err_3");
     var err_both = document.getElementById("err_both");
     var err_payment = document.getElementById("err_payment");
     var err_shipping = document.getElementById("err_shipping");
@@ -36,6 +38,7 @@ but1.addEventListener('click',function request(){
         error_msg.className="clear";
         err_1.className = "clear";
         err_2.className = "clear";
+        err_3.className = "clear";
         err_both.className = "clear";
         err_payment.className = "clear";
         err_shipping.className = "clear";
@@ -49,21 +52,43 @@ but1.addEventListener('click',function request(){
             }  
         }
         if(delivery == "Select Delivery Option" && payment == "Select Payment Option" && value_array != null & value_array !="" && error_msg.className == "clear"){
+           for(i=0;i<value_array.length;i++){
+            if(value_array[i] != null || value_array[i] !=""){
+                id_array[i].className = "clear";
+            }
+           }
             err_both.className = "display";
         }
-        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option" && value_array != null & value_array !="" && error_msg.className == "clear"){
+        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option" && user1 != null && user1 != "" && name != null && name != "" && birth != null && birth != "" && address != null && address != "" && email != null && email !="" && error_msg.className == "clear"){
+             for(i=0;i<value_array.length;i++){
+                 if(value_array[i] != null || value_array[i] !=""){
+                    id_array[i].className = "clear";
+                }
+           }
             err_payment.className = "display";
         }
         
-        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && value_array != null & value_array !="" && error_msg.className == "clear"){
+        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && user1 != null && user1 != "" && name != null && name != "" && birth != null && birth != "" && address != null && address != "" && email != null && email !="" && error_msg.className == "clear"){
             err_shipping.className = "display";
         }
-        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option" && value_array == null && error_msg.className == "clear"){
+        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option"  && error_msg.className == "clear"){
             err_1.className = "display";
         }
         
-        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && value_array == null && error_msg.className == "clear"){
+        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && error_msg.className == "clear"){
             err_2.className = "display";
+        }
+        
+        else if(delivery !="Select Delivery Option" && payment != "Select Payment Option" ){
+            for(i=0;i<value_array.length;i++){
+                if(value_array[i] == null || value_array[i] ==""){
+                    id_array[i].className = "red";
+                }
+                else if(value_array[i] != null || value_array[i] != ""){
+                    id_array[i].className = "clear";
+                }
+            }
+            err_3.className = "display";
         }
     }
    
@@ -73,6 +98,7 @@ but1.addEventListener('click',function request(){
         error_msg.className="clear";
         err_1.className = "clear";
         err_2.className = "clear";
+        err_3.className = "clear";
         err_both.className = "clear";
         err_payment.className = "clear";
         err_shipping.className = "clear";

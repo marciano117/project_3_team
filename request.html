@@ -34,34 +34,37 @@
             </p>
 
             <label>Attn: **</label>
-            <input id="user1" type="text" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
+            <input id="user1" class="clear" type="text" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
 
             <label>Student Name: **</label>
-            <input id="name" type="text" required title="Enter your name." placeholder="Jane Doe"/>
+            <input id="name" class="clear" type="text" required title="Enter your name." placeholder="Jane Doe"/>
 
             <label>Date of Birth: **</label>
-            <input id="birth" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
+            <input id="birth" class="clear" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
 
             <label>Mailing Address: **</label>
-            <input id="address" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
+            <input id="address" class="clear" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
 
             <label>Delivery Options:</label>
-            <select>
+            <select id="delivery" name=" Delivery">
+                <option value="Select Delivery Option">Select Delivery Option</option>
                 <option value="usps">USPS</option>
                 <option value="fedex">FedEx</option>
                 <option value="email">E-mail</option>
             </select>
             <label>E-Mail</label>
-            <input type="email" title="Enter email of requesting institution." placeholder="For email delivery option"/>
+            <input id="email" class="clear" type="email" title="Enter email of requesting institution." placeholder="For email delivery option"/>
             <label>Payment:</label>
-            <select>
+            <select id="payment" name="Payment">
+                <option value="Select Payment Option">Select Payment Option</option>
                 <option value="credit">Credit/Debit</option>
                 <option value="check">Check</option>
                 <option value="deposit">Direct Deposit</option>
         </select>
 
             <button type="button" id="submit">Submit</button>
-
+            
+            <p id="error" class="clear-display">Please fill in incomplete required fields marked in red.</p>
             <p id="transcript_message" class="clear-display">Your Official Transcript request has been sent.</p>
 
 

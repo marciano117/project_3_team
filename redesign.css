@@ -126,6 +126,17 @@ input:hover, textarea:hover{
   max-width: 70%;
 }
 
+.hideContent {
+  overflow: hidden;
+  line-height: 1em;
+  height: 0em;
+}
+
+.showContent {
+  line-height: 1em;
+  height: auto;
+}
+
 .menu {
   padding: 1em;
   margin-left: 10%;

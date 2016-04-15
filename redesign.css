@@ -173,6 +173,8 @@ input:hover, textarea:hover{
 
 .display{
     color:red;
+    display: inline-flex;
+    
 }
 
 @media only screen and (min-width: 31em){

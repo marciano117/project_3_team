@@ -81,16 +81,6 @@ input:hover, textarea:hover{
   border-radius: .5em;
 }
 
-#gradeimgs {
-  padding-left: 5%;
-  padding-right: 5%;
-  max-width:90%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 #login {
   text-align: center;
   padding: .5em;
@@ -138,6 +128,16 @@ input:hover, textarea:hover{
 #major, #degree {
   width: 50%;
   max-width: 70%;
+}
+
+.gradeimgs {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width:90%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hideContent {

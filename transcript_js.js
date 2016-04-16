@@ -7,15 +7,15 @@ var pattern_email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 but1.addEventListener('click',function request(){
     
-    var test_birth = document.forms["request"]["birth"].value;
-    var test_email = document.forms["request"]["email"].value;
     
     var user1 = document.forms["request"]["user1"].value;
     var name = document.forms["request"]["name"].value;
-    
     var address = document.forms["request"]["address"].value;
     var delivery = document.forms["request"]["Shipping"].value;
     var payment = document.forms["request"]["Payment"].value
+    
+    var test_birth = document.forms["request"]["birth"].value;
+    var test_email = document.forms["request"]["email"].value;
    
  
     var user_id = document.getElementById("user1");

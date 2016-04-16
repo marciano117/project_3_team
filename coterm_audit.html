@@ -59,8 +59,8 @@
           <input id="address" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
 
           <label>Degree:</label>
-          <select id="degree">
-              <option value="Select A Degree" selected="selected">Select a Degree</option>
+          <select id="degree" name="Degree">
+              <option value="Select A Degree" selected="selected">Select A Degree</option>
               <option value="BachelorOfScience">Bachelor of Science</option>
               <option value="ProfessionalBachelor">Professional Bachelor</option>
               <option value="BachelorOfScience">Master of Science</option>
@@ -68,7 +68,7 @@
           </select>
 
           <label>Major:</label>
-          <select id="major">
+          <select id="major" name="Major">
             <!-- From current IIT academic audit source code -->
             <option value="Select A Major" selected="selected">Select A Major</option>
             <option value="40">Aerospace Engineering</option>
@@ -115,13 +115,18 @@
 
           <button type="button" id="submit">Submit</button>
             
-            <p id="error">Please fill in incomplete required fields marked in red. Please select a major and a degree.</p>
-            <p id="degree">Please select a degree</p>
-            <p id="birth_format" class="clear-display">Please enter your birth day in the format of MM/DD/YYYY.</p>
-            <p id="email_format" class="clear-display">Please enter a valid email address.</p>
+            <p id="error" class="clear-display">Please fill in incomplete required fields marked in red. Please select a major and a degree.</p>
+            <p id="err_1" class="clear-display">Please fill in incomplete required fields marked in red and select a major.</p>
+            <p id="err_2" class="clear-display">Please fill in incomplete required fields marked in red and select a degree.</p>
+            <p id="err_3" class="clear-display">Please fill in incomplete required fields marked in red.</p>
+            <p id="err_both" class="clear-display">Please select a major and a degree.</p>
+            <p id="err_major" class="clear-display">Please select a major.</p>
+            <p id="err_degree" class="clear-display">Please select a degree</p>
+            <p id="birth_format" class="clear-display">Please enter your birth day in the format of MM/DD/YYYY</p>
+            <p id="email_format" class="clear-display">Please enter a valid email address</p>
             <p id="audit_message" class="clear-display">
-            Your Request has been registered! Please wait approximately 5-7 business days. If you do not 
-            receive your academic audit within that time, please feel free to contact us at: FakeUGAAEmail@iit.edu
+            Your Request has been registered! Please wait approximately 5-7 business days. If you do not receive
+            your academic audit within that time, please feel free to contact us at: FakeUGAAEmail@iit.edu
             </p>
 
         </form>

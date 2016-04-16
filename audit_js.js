@@ -20,6 +20,7 @@ but1.addEventListener('click',function request(){
     var address_id = document.getElementById("address");
     var email_id = document.getElementById("email");
     var major_id = document.getElementById("major");
+    var degree_id = document.getElementById("degree");
     var minor_id = document.getElementById("minor");
     var specialization_id = document.getElementById("specialization");
     var additionalInfo_id = document.getElementById("additionalInfo");
@@ -60,7 +61,8 @@ but1.addEventListener('click',function request(){
 
     if(IDNumber == null || IDNumber == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == "" || email == null || email == "" || degree == "Select A Degree" || major == "Select A Major"){
 
-        msg.className = "clear-display";
+        msg.className = "clear";
+        error_msg.className="clear";
         err_1.className = "clear";
         err_2.className = "clear";
         err_3.className = "clear";

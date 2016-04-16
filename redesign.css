@@ -164,7 +164,7 @@ input:hover, textarea:hover{
 }
 
 .red{
-  background-color:red;
+  border: .2em solid red;
 }
 
 .clear-display{

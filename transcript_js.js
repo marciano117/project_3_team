@@ -80,10 +80,26 @@ but1.addEventListener('click',function request(){
             err_shipping.className = "display";
         }
         else if(delivery !="Select Delivery Option" && payment == "Select Payment Option"  && error_msg.className == "clear"){
+            for(i=0;i<value_array.length;i++){
+                if(value_array[i] == null || value_array[i] ==""){
+                    id_array[i].className = "red";
+                }
+                else if(value_array[i] != null || value_array[i] != ""){
+                    id_array[i].className = "clear";
+                }
+            }
             err_1.className = "display";
         }
         
         else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && error_msg.className == "clear"){
+            for(i=0;i<value_array.length;i++){
+                if(value_array[i] == null || value_array[i] ==""){
+                    id_array[i].className = "red";
+                }
+                else if(value_array[i] != null || value_array[i] != ""){
+                    id_array[i].className = "clear";
+                }
+            }
             err_2.className = "display";
         }
         

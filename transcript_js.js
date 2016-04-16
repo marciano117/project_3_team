@@ -32,7 +32,9 @@ but1.addEventListener('click',function request(){
     var i=0;
     
     
-    if(user1 == null || user1 == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == "" || delivery == "Select Delivery Option" || payment == "Select Payment Option" || email == null || email ==""){
+    if(user1 == null || user1 == "" || name == null || name == "" || birth == null || birth == "" || 
+       address == null || address == "" || delivery == "Select Delivery Option" 
+       || payment == "Select Payment Option" || email == null || email ==""){
          
         msg.className = "clear";
         error_msg.className="clear";
@@ -59,7 +61,10 @@ but1.addEventListener('click',function request(){
            }
             err_both.className = "display";
         }
-        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option" && user1 != null && user1 != "" && name != null && name != "" && birth != null && birth != "" && address != null && address != "" && email != null && email !="" && error_msg.className == "clear"){
+        else if(delivery !="Select Delivery Option" && payment == "Select Payment Option" && user1 != null && user1 != "" && name != null
+                && name != "" && birth != null && birth != "" && address != null && address != ""
+                && email != null && email !="" && error_msg.className == "clear"){
+            
              for(i=0;i<value_array.length;i++){
                  if(value_array[i] != null || value_array[i] !=""){
                     id_array[i].className = "clear";
@@ -68,7 +73,10 @@ but1.addEventListener('click',function request(){
             err_payment.className = "display";
         }
         
-        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && user1 != null && user1 != "" && name != null && name != "" && birth != null && birth != "" && address != null && address != "" && email != null && email !="" && error_msg.className == "clear"){
+        else if(delivery =="Select Delivery Option" && payment != "Select Payment Option" && user1 != null && user1 != "" && name != null
+                && name != "" && birth != null && birth != "" && address != null && address != "" 
+                && email != null && email !="" && error_msg.className == "clear"){
+            
             err_shipping.className = "display";
         }
         else if(delivery !="Select Delivery Option" && payment == "Select Payment Option"  && error_msg.className == "clear"){

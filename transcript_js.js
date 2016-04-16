@@ -1,16 +1,23 @@
 var but1 = document.getElementById("submit");
+var pattern_birth = /^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/;
+var pattern_email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+
 
 
 but1.addEventListener('click',function request(){
     
+    var test_birth = document.forms["request"]["birth"].value;
+    var test_email = document.forms["request"]["email"].value;
+    
     var user1 = document.forms["request"]["user1"].value;
     var name = document.forms["request"]["name"].value;
-    var birth = document.forms["request"]["birth"].value;
+    
     var address = document.forms["request"]["address"].value;
     var delivery = document.forms["request"]["Shipping"].value;
     var payment = document.forms["request"]["Payment"].value
-    var email = document.forms["request"]["email"].value;
-    
+   
+ 
     var user_id = document.getElementById("user1");
     var name_id = document.getElementById("name");
     var birth_id = document.getElementById("birth");
@@ -27,10 +34,26 @@ but1.addEventListener('click',function request(){
     var err_payment = document.getElementById("err_payment");
     var err_shipping = document.getElementById("err_shipping");
     
+    
+        if(!pattern_email.test(test_email)){
+       console.log("error email");
+    }
+    else {
+         var email = document.forms["request"]["email"].value;
+            email_id.className="clear";
+    }
+    
+     if(!pattern_birth.test(test_birth)){
+        console.log("error birth");
+    }
+    else {
+        var birth = document.forms["request"]["birth"].value;
+        birth_id.className="clear";
+    }
+    
     var value_array = [user1,name,birth,address,email];
     var id_array = [user_id,name_id,birth_id,address_id,email_id,payment_id,delivery_id];
     var i=0;
-    
     
     if(user1 == null || user1 == "" || name == null || name == "" || birth == null || birth == "" || 
        address == null || address == "" || delivery == "Select Delivery Option" 

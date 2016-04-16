@@ -34,29 +34,29 @@
             </p>
 
             <label>Attn: **</label>
-            <input id="user1" class="clear" type="text" placeholder="Admissions Office" title="Enter your transcript addressee." required/>
+            <input id="user1" class="clear" type="text" required placeholder="Admissions Office" title="Enter your transcript addressee."/>
 
             <label>Student Name: **</label>
-            <input id="name" class="clear" type="text" required title="Enter your name." placeholder="Jane Doe" required/>
+            <input id="name" class="clear" type="text" required title="Enter your name." placeholder="Jane Doe"/>
 
             <label>Date of Birth: **</label>
-            <input id="birth" class="clear" type="text" title="Date of Birth." placeholder="mm/dd/yyyy" 
-            pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" required/>
+            <input id="birth" class="clear" type="text" required title="Date of Birth." placeholder="mm/dd/yyyy"/>
 
             <label>Mailing Address: **</label>
-            <input id="address" class="clear" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608" required/>
+            <input id="address" class="clear" type="text" required title="Enter the mailing address." placeholder="100 W Main St. Alm, IL 60608"/>
 
             <label>Delivery Options:</label>
-            <select id="shipping" name="Shipping" required>
+            <select id="shipping" name="Shipping">
                 <option value="Select Delivery Option">Select Delivery Option</option>
                 <option value="usps">USPS</option>
                 <option value="fedex">FedEx</option>
                 <option value="email">E-mail</option>
             </select>
             <label>E-Mail</label>
-            <input id="email" class="clear" type="email" title="Enter email of requesting institution." placeholder="For email delivery option" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
+            <input id="email" class="clear" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" 
+            title="Enter email of requesting institution." placeholder="For email delivery option"/>
             <label>Payment:</label>
-            <select id="payment" name="Payment" required>
+            <select id="payment" name="Payment">
                 <option value="Select Payment Option">Select Payment Option</option>
                 <option value="credit">Credit/Debit</option>
                 <option value="check">Check</option>
@@ -74,12 +74,9 @@
               <p id="err_payment" class="clear-display">Please select a payment option!</p>
               <p id="err_shipping" class="clear-display">Please select a delivery option!</p>
               <p id="transcript_message" class="clear-display">Your Official Transcript request has been sent. Confirmation email sent to the provided email address.</p>
-              <p id="birth_format" class="clear-display">Please enter your birth day in the format of MM/DD/YYYY</p>
-              <p id="email_format" class="clear-display">Please enter a valid email address</p>
             
 
           </form>
-
 
 
         <label class="menu">&#9660; My Schedule</label>

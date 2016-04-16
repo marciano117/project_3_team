@@ -33,22 +33,25 @@ but1.addEventListener('click',function request(){
     var err_both = document.getElementById("err_both");
     var err_payment = document.getElementById("err_payment");
     var err_shipping = document.getElementById("err_shipping");
-    
+    var birth_format = document.getElementById("birth_format");
+    var email_format = document.getElementById("email_format");
     
         if(!pattern_email.test(test_email)){
-       console.log("error email");
+        email_format.className="display";
     }
     else {
          var email = document.forms["request"]["email"].value;
             email_id.className="clear";
+            email_format.className ="clear-display";
     }
     
      if(!pattern_birth.test(test_birth)){
-        console.log("error birth");
+        birth_format.className="display";
     }
     else {
         var birth = document.forms["request"]["birth"].value;
         birth_id.className="clear";
+        birth_format.className="clear-display";
     }
     
     var value_array = [user1,name,birth,address,email];

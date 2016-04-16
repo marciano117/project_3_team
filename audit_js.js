@@ -9,12 +9,14 @@ but1.addEventListener('click',function request(){
     var email = document.forms["request"]["email"].value;
 
 
+
     var IDNumber_id = document.getElementById("IDNumber");
     var name_id = document.getElementById("name");
     var birth_id = document.getElementById("birth");
     var address_id = document.getElementById("address");
     var email_id = document.getElementById("email");
     var msg = document.getElementById("audit_message");
+
 
     if(IDNumber == null || IDNumber == "" || name == null || name == "" || birth == null || birth == "" || address == null || address == "" || email == null || email == ""){
 

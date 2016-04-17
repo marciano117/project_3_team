@@ -1,10 +1,10 @@
 var but1 = document.getElementById("submit");
 var pattern_birth = /^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/;
 var pattern_email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
+var pattern_id = /[A][0-9]{8}/;
 but1.addEventListener('click',function request(){
 
-    var IDNumber  = document.forms["request"]["IDNumber"].value;
+   
     var name = document.forms["request"]["name"].value; 
     var address = document.forms["request"]["address"].value; 
     var degree = document.forms["request"]["Degree"].value;
@@ -12,6 +12,7 @@ but1.addEventListener('click',function request(){
 
     var test_birth = document.forms["request"]["birth"].value;
     var test_email = document.forms["request"]["email"].value;
+    var test_id = document.forms["request"]["IDNumber"].value;
 
 
     var IDNumber_id = document.getElementById("IDNumber");
@@ -27,6 +28,7 @@ but1.addEventListener('click',function request(){
     var msg = document.getElementById("audit_message");
     var email_format = document.getElementById("email_format");
     var birth_format =  document.getElementById("birth_format");
+    var id_format = document.getElementById("id_format");
     
     var error_msg = document.getElementById("error");
     var err_major = document.getElementById("err_major");
@@ -53,6 +55,16 @@ but1.addEventListener('click',function request(){
         var birth = document.forms["request"]["birth"].value;
         birth_id.className="clear";
         birth_format.className="clear-display";
+    }
+    
+    if(!pattern_id.test(test_id)){
+        id_format.className="display";
+    }
+    else{
+         var IDNumber  = document.forms["request"]["IDNumber"].value;
+        IDNumber_id.className="clear";
+        id_format.className="clear-display";
+        
     }
     
     var value_array = [IDNumber,name,birth,address,email,major];

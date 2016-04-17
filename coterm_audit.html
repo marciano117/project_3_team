@@ -44,7 +44,7 @@
           </p>
 
           <label>Student Name: **</label>
-          <input id="name" type="text" aria-required="true" title="Enter your name." placeholder="Jane Doe"/>
+          <input id="name" type="text" aria-required="true" title="Enter your name." placeholder="Jane Doe" pattern="[A][0-9]{8}" required./>
 
           <label>Student ID Number: **</label>
           <input id="IDNumber" type="text" aria-required="true" placeholder="A########" title="Enter your Hawk A-Number"/>
@@ -124,6 +124,7 @@
             <p id="err_degree" class="clear-display">Please select a degree</p>
             <p id="birth_format" class="clear-display">Please enter your birth day in the format of MM/DD/YYYY</p>
             <p id="email_format" class="clear-display">Please enter a valid email address</p>
+            <p id="id_format" class="clear-display">Please enter a valid student ID number.</p>
             <p id="audit_message" class="clear-display">
             Your Request has been registered! Please wait approximately 5-7 business days. If you do not receive
             your academic audit within that time, please feel free to contact us at: FakeUGAAEmail@iit.edu

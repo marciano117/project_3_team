@@ -6,6 +6,8 @@ but.addEventListener('click',function login(){
     var pass = document.forms["iit"]["pass"].value;
     var user_id = document.getElementById("user");
     var pass_id = document.getElementById("pass");
+    var err_user = document.getElementById("wrong_user");
+    var err_pass = document.getElementById("wrong_pass");
     
     if ((user == null || user =="") && (pass == null || pass =="")){
         user_id.className = "red";
@@ -23,6 +25,7 @@ but.addEventListener('click',function login(){
           pass_id.className="red";
     }
     
+        
     else if(user == "undergraduate" && pass == "password"){
         window.location.href="undergrad.html";
     }
@@ -33,18 +36,20 @@ but.addEventListener('click',function login(){
     else if (user == "coterminal" && pass =="password"){
         window.location.href="coterm.html"
     }
-    else if (user != "undergraduate" && user != "graduate" && user != "coterminal" && user != "" && user != null ){
-        var err_user = document.getElementById("wrong_user");
-        err_user.className = "display";
-        user_id.value ="";
-        pass_id.value ="";
-    }    
-    else if(pass!= "password" && pass!="null" && pass!= ""){
-        var err_pass = document.getElementById("wrong_pass");
-        err_pass.className = "display";
-        user_id.value="";
-        pass_id.value="";
+    
+    else if(user != "undegraduate" || user != "graduate" || user != "coterminal" || user != "" || user != null || pass!= "password" || pass!="null" || pass!= ""){
+        err_user.className = "clear-display";
+        err_pass.className = "clear-display";
+            
+        if(user != "undergraduate" && user != "graduate" && user != "coterminal" && user != "" && user != null ){
+            err_user.className="display";
+        }
+        
+        if(pass!= "password" && pass!="null" && pass!= ""){
+            err_pass.className="display";
+        }
     }
+
     
                      });
 

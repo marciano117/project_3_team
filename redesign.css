@@ -38,7 +38,7 @@ form {
     width: 90%;
     max-width: 100%;
     margin: auto;
-    padding: 1.5em;
+    padding: 1.25em;
     background-color: #eee;
     display: block;
 }
@@ -104,7 +104,8 @@ input:hover, textarea:hover{
 }
 
 #menu, #forgot {
-  padding:3em;
+  padding-right: 1.3em;
+  padding-left: 1.0em;
 }
 
 #semester {
@@ -174,7 +175,7 @@ input:hover, textarea:hover{
 .display{
     color:red;
     display:flex;
-    
+
 }
 
 
@@ -196,7 +197,7 @@ input:hover, textarea:hover{
     width: 80%;
     max-width: 46.875em;
   }
-    
+
  #login{
     width: 35%;
     max-width: 35%;
